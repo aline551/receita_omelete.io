@@ -25,13 +25,13 @@ Reproduzir fielmente o layout proposto pelo Frontend Mentor, garantindo que a in
 - Organização de pastas e boas práticas de HTML/CSS
 - Melhorias em semântica e acessibilidade
 
-## 📸 Captura de tela
+
 
 
 
 ## 🌐 Deploy
 
-[🔗 Acesse o projeto online aqui](https://aline551.github.io/nome-do-projeto/)
+[🔗 Acesse o projeto online aqui]https://aline551.github.io/receita_omelete.io/
 
 ---
 
