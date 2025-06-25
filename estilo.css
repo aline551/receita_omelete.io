@@ -1,0 +1,125 @@
+*{
+
+
+}
+
+body{
+  margin: auto; /* Boas práticas: resetar a margem padrão do navegador */
+  padding: 0; /* Boas práticas: resetar o padding padrão do navegador */
+  margin-top: 50px; /* Isso afastará toda a página 50px do topo */
+  background-color: hsl(30, 54%, 90%);
+
+}
+main{
+	
+	border: 1px ;
+	border-radius: 50px;
+	width: 50%;
+	padding: 40px;
+	margin: 0 auto;
+	background-color:  hsl(0, 0%, 100%);
+
+}
+ img{
+ 	height: 100%;
+ 	width: 100%;
+ 	border-radius: 20px;
+ 	background-color: ;
+ 	
+ }
+
+ h1{
+ 	text-align: left;
+ 	font-size: 360%;
+ }
+
+ p{
+ 	text-align:left;
+ 	color: hsl(30, 10%, 34%);
+ 	font-family: sans-serif;
+
+ }
+ .tempo{
+ 	text: hsl(30, 10%, 34%);
+ 	border:  1px ;
+ 	padding: 10px;
+ 	margin: 0;
+ 	border-radius: 15px;
+ 	background-color:hsl(31, 45.50%, 80.60%) ;
+ 
+ 	 }
+
+h2{
+	color: hsl(332, 51%, 32%);
+}
+
+#prepacao{
+	font-family: "Inter", sans-serif;
+	padding-left:20px ;
+}
+
+
+
+
+.lista-customizada-simples{
+	list-style-type: none; /* Remove a bolinha padrão do navegador */
+    padding-left:20px;           /* Remove o padding padrão da lista */
+    margin: 0; 
+}
+
+.lista-customizada-simples li {
+    display: flex;          /* Faz o LI ser um container flexível */
+    align-items: center;    /* ALINHA O MARCADOR E O TEXTO VERTICALMENTE NO CENTRO */
+   /*margin-bottom: 15px;     Espaço entre os itens da lista */
+    line-height: 1.5;       /* Espaçamento entre as linhas do texto do item */
+    font-size: 1.05em;
+    color:black ;
+}
+
+.lista-customizada-simples li::before {
+    content: ""; /* Conteúdo vazio para o pseudo-elemento */
+    flex-shrink: 0; /* Impede que a bolinha encolha */
+    width: 8px; /* Largura da bolinha */
+    height: 8px; /* Altura da bolinha */
+    background-color: hsl(332, 51%, 32%); /* Cor da bolinha (azul) */
+    border-radius: 50%; /* Transforma o quadrado em círculo */
+    margin-right: 15px; /* Espaço entre a bolinha e o texto */
+}
+
+	.Ingredientes li{
+		color:hsl(30, 10%, 34%) ;
+		padding-right: 0;
+		font-family: sans-serif;
+		padding-left: 20px;
+	}
+.instrucao{
+	font-family: sans-serif;
+	color: hsl(24, 5%, 18%);
+
+}
+ 
+ .instrucao li{
+ 	padding: 20px;
+ 	color: hsl(30, 10%, 34%);
+ }
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 5px;
+  }
+   table td {
+    border-bottom: 1px solid hsl(30, 10%, 34%);
+    padding: 20px;
+  
+	  }
+  th{
+  	border-bottom: 1px solid hsl(30, 10%, 34%);
+  	color: hsl(332, 51%, 32%);
+ 
+  }
+
+  #cabecalho{
+ 	text-align: center;
+ 	font-size: 15px;
+  }
